@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <main>
+    <section id="catalog" class="container" >
+      <h2>Каталог магазина</h2>
+      <p>Здесь вы можете ознакомиться с нашим ассортиментом и выбрать понравившиеся блюда :)</p>
+    </section>
+
+      <hr>
+      <div class="slider" style="display: flex; overflow-x: auto" >
+  <div class="slider__item" style="flex-shrink: 0; width: 300px; margin-right: 20px">
+    <h2>Филадельфия</h2>
+      <p>Цена: 1000 руб.</p>
+    <p>Состав: рис, лосось, огурец, нори</p>
+    <img src="https://img.freepik.com/free-photo/philadelphia-rolls-with-salmon-and-cream-cheese_114579-3289.jpg?size=626&ext=jpg&ga=GA1.1.691170222.1696698763&semt=ais" alt="филадельфия" style="width: 100%">
+  </div>
+  <div class="slider__item" style="flex-shrink: 0; width: 300px; margin-right: 20px">
+    <h2>Товар 2</h2>
+    <p>Описание товара 2</p>
+    <p>Цена: 2000 руб.</p>
+    <img src="images/item2.jpg" alt="Товар 2" style="width: 100%">
+  </div>
+  <div class="slider__item" style="flex-shrink: 0; width: 300px; margin-right: 20px">
+    <h2>Товар 3</h2>
+    <p>Описание товара 3</p>
+    <p>Цена: 3000 руб.</p>
+    <img src="images/item3.jpg" alt="Товар 3" style="width: 100%">
+  </div>
+  <div class="slider__item" style="flex-shrink: 0; width: 300px; margin-right: 20px">
+    <h2>Товар 4</h2>
+    <p>Описание товара 4</p>
+    <p>Цена: 4000 руб.</p>
+    <img src="images/item4.jpg" alt="Товар 4" style="width: 100%">
+  </div>
+  <div class="slider__item" style="flex-shrink: 0; width: 300px; margin-right: 20px">
+    <h2>Товар 5</h2>
+    <p>Описание товара 4</p>
+    <p>Цена: 4000 руб.</p>
+    <img src="images/item5.jpg" alt="Товар 5" style="width: 100%">
+  </div>
+  </div>
+
+    <section id="feedback">
+        <hr>
+      <h2>Обратная связь</h2>
+      <p>Если у вас есть вопросы или предложения, вы можете связаться с нами по следующим контактам:</p>
+      <ul>
+        <li>Телефон: +7 (901) 332-56-77</li>
+        <li>Электронная почта: podderzhka@gmail.com</li>
+        <li>Адрес: г. Москва, ул. Тверская, д. 1</li>
+      </ul>
+    </section>
+  </main>
+
+{% endblock %}

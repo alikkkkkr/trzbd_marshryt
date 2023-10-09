@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 style="text-align: center; margin-top: 50px; margin-bottom: 30px">Корзина</h1>
+ <div class="container" style="width: 80%; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center">
+  <div class="product" style="width: 30%; background-color: #f2f2f2; border-radius: 10px; padding: 20px; margin-bottom: 30px">
+   <img src="https://img.freepik.com/free-photo/philadelphia-rolls-with-salmon-and-cream-cheese_114579-3289.jpg?size=626&ext=jpg&ga=GA1.1.691170222.1696698763&semt=ais" alt="Роллы Калифорния" style="width: 100%; border-radius: 10px">
+   <h2 style="font-size: 20px; margin-top: 10px">Филадельфия</h2>
+      <p style="font-size: 16px; margin-top: 10px">499руб.</p>
+      <p style="font-size: 16px; margin-top: 10px">Количество: 1шт.</p>
+   <button style="display: block; margin-top: 20px; padding: 10px 20px; background-color: rgba(196,65,65,0.8); color: #fff; border-radius: 5px; border: none; cursor: pointer">Удалить</button>
+  </div>
+ </div>
+{% endblock %}
